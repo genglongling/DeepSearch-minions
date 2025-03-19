@@ -206,8 +206,11 @@ output = minion(
 )
 ```
 
-## Python Notebook
+## Python Notebook (DeepSearch version)
 
+```
+%env OPENAI_API_KEY=
+```
 To run Minion/Minions in a notebook, checkout `minions.ipynb`.
 
 ## CLI
