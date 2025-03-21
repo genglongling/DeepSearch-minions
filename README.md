@@ -226,11 +226,9 @@ remote_client = OpenAIClient(
 minion = MinionDeepResearch(local_client, remote_client)
 
 
-context = """
-MCP refers to Anthropic's MCP
-"""
+context = """ """
 
-task = "Explain to me anthropic's MCP protocol."
+task = "What are the principles of GRPO training?"
 
 # Execute the minion protocol for up to two communication rounds
 output = minion(
